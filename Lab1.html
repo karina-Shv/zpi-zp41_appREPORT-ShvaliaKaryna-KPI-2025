@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ЗВІТ З ЛАБОРАТОРНИХ РОБІТ</h1>
+            <h2>З ДИСЦИПЛІНИ "ПРОЕКТУВАННЯ WEB-ЗАСТОСУВАНЬ"</h2>            
+        </div>
+        <div class="stud-info">
+            <div>
+                <h3>Студентки групи ЗПІ-зп41</h3>
+            </div>
+            <div>
+                <h3>Швалі Карини Василівни</h3>
+            </div>
+            <img src="/3-4.jpg" class="photo"; alt="Student`s Photo"></div>
+            
+    
+        </div>       
+        <div class="chooseLab">
+            <a href="/Lab1.html" class="tab">Лабораторна робота №1.1</a>
+            <a href="#" class="tab">Лабораторна робота №1.2</a>
+            <a href="#" class="tab">Лабораторна робота №2.1</a>
+            <a href="#" class="tab">Лабораторна робота №2.2</a>
+            <a href="#" class="tab">Лабораторна робота №3.1</a>
+            <a href="#" class="tab">Лабораторна робота №3.2</a>    
+        </div>
+        <div class="content">      
+            <div class="menu">
+                <button class="active" onclick="changeContent('Опис предметного середовища')">Опис предметного середовища</button>
+                <button class="" onclick="changeContent('Тема, Мета, Місце розташування')">Тема, Мета, Місце розташування</button>
+                <button class="">Структура документа</button>
+                <div class="include">
+                    <button class="">HTML-код ТАБЛИЦЬ</button>
+                    <button class="">HTML-код ФОРМИ</button>
+                    <button class="">HTML-код ЗОБРАЖЕННЯ</button>
+                </div>
+                <button class="">ВИСНОВКИ</button>
+            </div>
+            <div id="output" class="content">
+                Місце виведення інформації
+            </div>
+            <script>
+                function changeContent(content) {
+                    document.getElementById('output').innerText = content;
+                }
+            </script>
+            <!--<div id="info1" class="output">                
+                <h2>Тема</h2>
+                <p>
+                    Створення веб-сайту для котокафе.
+                </p>
+                <h2>Мета проєкту</h2>
+                <p>
+                    Представлення концепції котокафе, бронювання місць, ознайомлення з меню та інформацією про котів, підтримка благодійної діяльності.
+                </p>
+                <h2>Опис</h2>
+                <p>
+                    Котокафе — це затишне місце, де відвідувачі можуть насолодитися напоями та їжею, проводячи час у компанії милих котів. Веб-застосунок котокафе призначений для забезпечення зручного доступу користувачів до інформації про котокафе, проведення заходів, меню та цін. Головна сторінка відображає назву кафе, логотип, короткий опис концепції, фото котиків, та контактну інформацію (розташування, графік роботи та контактний номер телефону, посилання на соціальні мережі). Також є сторінка про історію створення котокафе, місію та цілі. Є сторінка для ознайомлення з меню та цінами. На сайті також є можливість бронювання місця та перегляду інформації про благодійні заходи.
+                </p>
+                <h2>Сценарій використання сайту</h2>
+                <ol>
+                    <li>Користувач може переглядати інформацію про котів (ім'я, фото, характер, можливість адопції)</li>
+                    <li>Користувач може створити обліковий запис.</li>
+                    <li>Користувач може зарезервувати місце через форму бронювання.</li>
+                    <li>Користувач може переглянути інформацію про заходи (майстер-класи, лекції).</li>
+                </ol>
+            </div>
+            <div id="info2" class="output">                
+                <h2>Тема</h2>
+                <p>
+                    Створення веб-сайту для котокафе.
+                </p>
+                <h2>Мета проєкту</h2>
+                <p>
+                    Представлення концепції котокафе, бронювання місць, ознайомлення з меню та інформацією про котів, підтримка благодійної діяльності.
+                </p>
+                <a href="#">Місце розташування</a>
+            </div>-->
+        </div>
+        
+    </div>
+    
+    
+
+ 
+
+
+
+</body>
+</html>
