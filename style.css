@@ -1,5 +1,5 @@
    
-*{
+body{
     margin: 0;
     padding: 0;
     font-family: 'Lora', 'Times New Roman, san-serif';
@@ -70,17 +70,17 @@
     margin: 30px;
 }
 .menu {
-    flex: 1;
+    flex: 1;    
+    align-items: center;
+    justify-content: center;
 }
-.menu button {
-    display: block;
+.tasks{
     width: 100%;
+    display: block;
     height: 60px;
     padding: 10px;
     margin-bottom: 10px;
     border: none;    
-    align-items: center;
-    justify-content: center;
     text-decoration: none;    
     text-align:center;        
     background-color: #7389AE;
@@ -89,28 +89,24 @@
     cursor: pointer;    
     transition: background-color 0.3s;
 }
-.menu button:hover {
+.tasks:hover {
     background-color: #b3d4fc;
     color: #2e4960;
 }
-.menu button.active {
-    background-color: #b3d4fc;
-    color: #2e4960;
+.tasks:active{
+    box-shadow: 2 2px #707e8b;
+    transform: translateY(2px);
 }
 .include{
-    margin-left: 70px;    
+    margin-left: 70px;
+    padding: 15px; 
 }
 .output {
-    display: none;
     flex: 3;
-    margin-left: 10px;
-    padding: 20px;
+    margin-left: 30px;
+    padding-left: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
-    min-height: 300px;
-    
-}
-.task1{
-    justify-content: column;
+    min-height: 300px;    
 }
