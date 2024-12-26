@@ -36,9 +36,9 @@
             <a href="#" class="tab">Лабораторна робота №3.2</a>    
         </div>
         <div class="content">      
-            <div class="menu">
-                <button class="active" onclick="changeContent('Опис предметного середовища')">Опис предметного середовища</button>
-                <button class="" onclick="changeContent('Тема, Мета, Місце розташування')">Тема, Мета, Місце розташування</button>
+            <div class="menu">                
+                <button class="active" onclick="changeContent('<h2>Тема</h2><p>Створення веб-сайту для котокафе.</p>')">Опис предметного середовища</button>
+                <button class="" onclick="changeContent('<p>dskvjdkjnv</p>')">Тема, Мета, Місце розташування</button>
                 <button class="">Структура документа</button>
                 <div class="include">
                     <button class="">HTML-код ТАБЛИЦЬ</button>
@@ -48,13 +48,15 @@
                 <button class="">ВИСНОВКИ</button>
             </div>
             <div id="output" class="content">
-                Місце виведення інформації
+                <p>smth</p>
+                
             </div>
             <script>
                 function changeContent(content) {
-                    document.getElementById('output').innerText = content;
+                    document.getElementById('output').innerHTML = content;
                 }
             </script>
+           
             <!--<div id="info1" class="output">                
                 <h2>Тема</h2>
                 <p>
