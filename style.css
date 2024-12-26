@@ -110,3 +110,38 @@ body{
     background-color: #f9f9f9;
     min-height: 300px;    
 }
+.structurePhoto{
+    width: 90%;
+}
+.tableCode1{
+    width:200px;
+    height:600px;
+}
+.tableCode2{
+    width:150px;
+    height:130px;
+}
+.tablePhoto{
+    width:330px;
+    height:250px;
+}
+.formCode{
+    width:450px;
+    height:350px;
+}
+.formPhoto{
+    width:350px;
+    height:350px;
+}
+.CatPhoto{
+    width: 300px;
+}
+.picCode{
+    width: 300px;
+}
+.list{
+    width:800px;
+}
+.listPhoto{
+    width:400px;
+}
