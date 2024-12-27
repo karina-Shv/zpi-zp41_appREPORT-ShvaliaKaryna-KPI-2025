@@ -37,11 +37,11 @@
         </div>
         <div class="content">      
             <div class="menu">      
-                <a href="./tasks1.2.html" class="tasks">Тема Мета Місце розташування сайту, звіту</a>
-                <a href="#" class="tasks">ЗАВДАННЯ №1. Зовнішній вигляд макету. Код макету</a>
+                <a href="./tasks2.1.html" class="tasks">Тема Мета Місце розташування сайту, звіту</a>
+                <a href="./tasks2.2.html" class="tasks">ЗАВДАННЯ №1. Зовнішній вигляд макету. Код макету</a>
                 <a href="#" class="tasks">ЗАВДАННЯ №2</a>
                 <div class="include">
-                    <a href="" class="tasks">Фіксована таблична верстка</a>
+                    <a href="./tasks2.3.html" class="tasks">Фіксована таблична верстка</a>
                     <a href="" class="tasks">Гумова таблична верстка</a>
                     <a href="" class="tasks">Фіксована блокова верстка</a>
                     <a href="" class="tasks">Гумова блокова верстка</a>
@@ -61,7 +61,12 @@
         
     </div>
     
-    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
 
  
 

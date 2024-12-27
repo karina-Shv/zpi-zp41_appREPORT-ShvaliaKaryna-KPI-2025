@@ -75,9 +75,8 @@ body{
     justify-content: center;
 }
 .tasks{
-    width: 100%;
     display: block;
-    height: 60px;
+    height: 40px;
     padding: 10px;
     margin-bottom: 10px;
     border: none;    
@@ -108,7 +107,8 @@ body{
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
-    min-height: 300px;    
+    min-height: 300px; 
+    max-width: 1000px;   
 }
 .structurePhoto{
     width: 90%;
@@ -144,4 +144,29 @@ body{
 }
 .listPhoto{
     width:400px;
+}
+.selector{
+    width: 300px;
+}
+.selectorPhoto{
+    width: 500px;
+}
+.selectorPhoto3{
+    width: 800px;
+}
+.selectorPhoto4{
+    width: 300px;
+}
+#selectorTable{
+    width: 200px;
+}
+.selectorPhoto5{
+    width: 1000px;
+}
+
+
+@media only screen and (max-width:850px){
+    .tasks{
+        height: 65px;
+    }
 }
