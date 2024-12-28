@@ -29,6 +29,7 @@ body {
     padding: 10px 10px 10px 10px;
     text-decoration: none;
     color: white;
+    font-weight: 700;
 }
 .dropdown {
     position: relative;
@@ -42,6 +43,7 @@ body {
     margin: 0 10px;
     padding: 5px 10px 5px 10px;
     font-size: 16px;
+    font-weight: 700;
 }
 .dropdown-content {
     display: none;
@@ -71,12 +73,14 @@ body {
     padding: 20px;
 }
 .heroH1 {
+    position: relative;
     font-size: 1.5em;
     color: #ffa500;
     font-weight: bold;
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-weight: 800;
 }
 .java{
     display: flex;
@@ -88,25 +92,49 @@ body {
 .hero-content p {
     font-size: 14px;
     color: #000000;
-    font-weight:lighter;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-size: 16px;
 }
 #sometext{
     font-size: 1.7em;
     color: #000000;
     font-weight: bold;
+    font-weight: 800;
 }
 .hero-content ul {
     list-style: none;
     padding: 0;
 }
 .hero-image{
-    width: 500px;
+    width: 400px;
     margin-right: 200px;
 }
 .hero-content ul li {
     font-size: 1.2em;
     margin: 5px 0;
     font-weight: bold;
+    font-weight: 850;
+    margin-left: 25px;
+}
+.circle{
+    position: absolute;
+    margin-top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.background-text {
+    position: absolute;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+    color: rgba(29, 146, 243, 0.07);
+    font-weight: 800;
+    z-index: 0;
+    pointer-events: none;
 }
 .graduates-section {
     background-color: #333;
@@ -141,12 +169,14 @@ body {
     color: rgb(23, 129, 227);
     margin: 0;
     padding: 0;
+    font-weight: 800;
 }
 .faq-section h2{
     text-align: center;
     color: rgb(0, 0, 0);margin: 0;
     padding: 0;
     margin-bottom: 15px;
+    font-weight: 900;
 }
 .faq-container {
     display: flex;
@@ -158,14 +188,18 @@ body {
     width: 30%;
     margin: 10px 0;
 }
-
 .faq-item h1 {
+    margin-bottom: 0px;
     font-size: 2.5em;
     color: rgb(23, 129, 227);
     font-weight: bolder;
+    font-weight: 900;
+}
+.faq-item p {
+    margin: 0px;
 }
 .faq-span{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffa500;
 }
 .faq-img{
@@ -174,6 +208,8 @@ body {
     align-items: center;
 }
 .cta-section {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #ffa500;
     color: white;
     text-align: center;
@@ -182,9 +218,50 @@ body {
 
 .cta-section h2 {
     font-size: 2em;
+    font-weight: 900;
+    margin: 20px;
 }
-
+.doneH2{
+    width: 500px;
+}
 .cta-section p {
-    margin-top: 10px;
+    margin-top: 57px;
     font-size: 1.2em;
+    font-weight: 800;
+    color: #000;
+}
+.done-img{
+    width: 100px;
+    margin-top: 17px;
+    margin-left: 200px;
+}
+.custom-border {
+    position: relative;
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+}
+/* Bottom-left and top-right corners */
+.custom-border::before,
+.custom-border::after {
+    content: '';
+    position: absolute;
+    border: 4px solid black; /* Border color */
+    border-radius: 3px;
+    width: 30px; /* Length of the border lines */
+    height: 30px; /* Height of the border lines */
+}
+/* Bottom-left corner */
+.custom-border::before {
+    bottom: 0;
+    left: 0;
+    border-right: none;
+    border-top: none;
+}
+/* Top-right corner */
+.custom-border::after {
+    top: 0;
+    right: 0;
+    border-left: none;
+    border-bottom: none;
 }
