@@ -72,11 +72,18 @@ body {
 }
 .heroH1 {
     font-size: 1.5em;
-    color: #e99228;
+    color: #ffa500;
     font-weight: bold;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.java{
+    display: flex;
+    justify-content: right;
+}
+.java-img{    
+    width: 300px;
 }
 .hero-content p {
     font-size: 14px;
@@ -121,10 +128,11 @@ body {
 .flex-container > img {
     width: 400px;
     border-radius: 1%;
-    margin: 5px;
+    margin: 10px;
 }
 
 .faq-section {
+    margin: 20px;
     padding: 20px;
     background-color: #ffffff;
 }
@@ -154,12 +162,17 @@ body {
 .faq-item h1 {
     font-size: 2.5em;
     color: rgb(23, 129, 227);
+    font-weight: bolder;
 }
 .faq-span{
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: #ffa500;
 }
-
+.faq-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .cta-section {
     background-color: #ffa500;
     color: white;
