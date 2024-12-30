@@ -108,7 +108,7 @@ body{
     border-radius: 8px;
     background-color: #f9f9f9;
     min-height: 300px; 
-    max-width: 1000px;   
+    min-width: 1000px;   
 }
 .structurePhoto{
     width: 90%;
@@ -165,8 +165,8 @@ body{
 }
 
 
-@media only screen and (max-width:850px){
+@media only screen and (max-width:1400px){
     .tasks{
         height: 65px;
-    }
+    }    
 }
